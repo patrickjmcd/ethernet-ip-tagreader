@@ -3810,7 +3810,7 @@ lodash@^3.5.0:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
-lodash@^4.0.0, lodash@^4.13.1, lodash@^4.14.0, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.3.0, lodash@^4.6.1:
+lodash@^4.0.0, lodash@^4.13.1, lodash@^4.14.0, lodash@^4.17.10, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.3.0, lodash@^4.6.1:
   version "4.17.10"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 
@@ -4748,8 +4748,8 @@ react-is@^16.3.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.3.2.tgz#f4d3d0e2f5fbb6ac46450641eb2e25bf05d36b22"
 
 "react-native-common@https://github.com/patrickjmcd/react-native-common":
-  version "1.1.0"
-  resolved "https://github.com/patrickjmcd/react-native-common#c04657ed950b5763cba8eee5a8d0d70b410e4e4a"
+  version "1.7.1"
+  resolved "https://github.com/patrickjmcd/react-native-common#1215d72f68503a51b93834d9aaaf5a19e4e6546b"
 
 react-native-dismiss-keyboard@1.0.0:
   version "1.0.0"

@@ -7,6 +7,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "lodash": "^4.17.10",
     "react": "^16.3.2",
     "react-native": "0.55.3",
     "react-native-common": "https://github.com/patrickjmcd/react-native-common",

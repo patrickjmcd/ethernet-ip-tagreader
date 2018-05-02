@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
-import TagFormReducer from './TagFormReducer';
+import SettingsReducer from './SettingsReducer';
+import TagsReducer from './TagsReducer';
 
 export default combineReducers({
-  tagForm: TagFormReducer
+  settings: SettingsReducer,
+  tags: TagsReducer
 });

@@ -1,16 +1,25 @@
-import { ADD_TAG, ADD_TAG_NAME_UPDATE } from './types';
+import { Actions } from 'react-native-router-flux';
+import { ADD_TAG, DELETE_TAG, UPDATE_IP_ADDRESS } from './types';
 
-export const addTag = (tagName) => {
+export const addTag = ({ tagName, tagVanity }) => {
     return {
         type: ADD_TAG,
-        payload: tagName
+        payload: { tagName, tagVanity }
     };
 };
 
-
-export const addTagNameUpdate = ({ tagName }) => {
+export const deleteTag = ({ tagName }) => {
+    Actions.pop();
     return {
-        type: ADD_TAG_NAME_UPDATE,
+        type: DELETE_TAG,
         payload: tagName
     };
 };
+
+export const updateIpAddress = ({ ipAddress }) => {
+    return {
+        type: UPDATE_IP_ADDRESS,
+        payload: ipAddress
+    };
+};
+

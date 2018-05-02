@@ -3,6 +3,7 @@ import React from 'react';
 import { Scene, Router, Actions } from 'react-native-router-flux';
 import Main from './components/Main';
 import Settings from './components/Settings';
+import TagSingle from './components/TagSingle';
 
 const RouterComponent = () => {
     return (
@@ -17,6 +18,7 @@ const RouterComponent = () => {
                     onRight={() => Actions.settings()}
                 />
                 <Scene key="settings" component={Settings} title="Settings" />
+                <Scene key="tagSingle" component={TagSingle} title="Tag" />
             </Scene>
             
         </Router>
